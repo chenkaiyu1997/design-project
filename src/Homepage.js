@@ -13,7 +13,7 @@ export default class extends Component {
           top: '97',
           bottom: '0',
           width: '100%',
-          height: '100%' ,
+          height: 'calc(100% - 97px)' ,
           overflow: 'hidden'}}>
 
         <video ref="video" autoPlay muted loop playsInline style={{
