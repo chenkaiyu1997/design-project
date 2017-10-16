@@ -10,7 +10,7 @@ export default class extends Component {
       <div style={{
           overflow:'hidden', 
           position: 'absolute',
-          top: '70',
+          top: '67',
           bottom: '0',
           width: '100%',
           height: '100%' ,
