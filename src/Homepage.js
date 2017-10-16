@@ -16,7 +16,7 @@ export default class extends Component {
           height: 'calc(100% - 97px)' ,
           overflow: 'hidden'}}>
 
-        <video ref="video" autoPlay muted loop playsInline style={{
+        <video ref="video" autoPlay muted loop playsInline poster="/image/hori_poster.jpg" style={{
             minWidth: '100%',
             minHeight: '100%',
             width: 'auto',
