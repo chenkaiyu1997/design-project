@@ -10,10 +10,9 @@ export default class extends Component {
       <div style={{
           overflow:'hidden', 
           position: 'absolute',
-          top: '97',
           bottom: '0',
           width: '100%',
-          height: 'calc(100% - 97px)' ,
+          height: '100%' ,
           overflow: 'hidden'}}>
 
         <video ref="video" autoPlay muted loop playsInline poster="/image/hori_poster.jpg" style={{
