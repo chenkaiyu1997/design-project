@@ -24,7 +24,9 @@ export default class extends Component {
             top: '50%',
             left: '50%',
             transform: 'translate(-50%,-50%)'}}>
+          <source src="/image/horizontal.webm" type="video/webm" />
           <source src="/image/horizontal.mp4" type="video/mp4" />
+          <source src="/image/horizontal.ogv" type="video/ogg" />
         </video>
       </div>
     )
