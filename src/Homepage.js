@@ -15,7 +15,8 @@ export default class extends Component {
           height: '100%' ,
           overflow: 'hidden'}}>
 
-        <video ref="video" autoPlay muted loop playsInline poster="/image/hori_poster.jpg" style={{
+
+        <video ref="video" autoPlay muted loop playsInline preload="auto" poster="/image/hori_poster.jpg" style={{
             minWidth: '100%',
             minHeight: '100%',
             width: 'auto',

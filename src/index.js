@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import Main from './Main';
+import FuckWechat from './FuckWechat';
 import Mobile from './Mobile/Main'
 import './css/index.css'
 import './css/filepicker.css'
@@ -17,8 +18,9 @@ for(var i = 0; i < mobileAgent.length; i++) {
     isMobile = true;
   }
 }
+var isInWeChat = /(micromessenger|webbrowser)/.test(navigator.userAgent.toLocaleLowerCase());
 
-if(0) ReactDOM.render(<Mobile />, document.getElementById('root'));
+if(isInWeChat) ReactDOM.render(<FuckWechat />, document.getElementById('root'));
 else {
   document.body.onresize = () => {
     if (document.body.clientWidth > document.body.clientHeight ) {
