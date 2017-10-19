@@ -154,7 +154,7 @@ class Page1 extends Component {
     return (
       <div style={{height: '85%', marginTop: '8vh', marginLeft: 'auto', marginRight: 'auto', textAlign:'center'}}>
           <div style={{width:'92vw',maxWidth:'60vh',display:'inline-block', position:'relative'}}>
-            <video controls ref="video" poster={empty}  autoPlay muted loop playsInline style={{margin:'-1px',width:'100%'}}>
+            <video ref="video" poster={empty}  autoPlay muted loop playsInline style={{margin:'-1px',width:'100%'}}>
               <source src="/image/final_1.mp4" type="video/mp4" />
             </video>
             <div  ref="box" style={{zIndex:100,position:'absolute', boxSizing:'border-box', border:'2px solid #F2F2F2',left:'-1px',top:'-1px', width:'calc(100% + 2px)',height:'calc(100% - 2px)'}}></div>
@@ -239,7 +239,7 @@ class Page2 extends Component {
     return (
       <div className="right" style={{height: '85%', marginTop: '10vh', width: '100%', textAlign:'center'}}>
           <div style={{width:'85vw',maxWidth:'54vh', display:'inline-block', position:'relative'}}>
-            <video controls ref="video" poster={empty}  autoPlay muted loop playsInline style={{WebkitTransformStyle: 'preserve-3d',transformStyle:'preserve-3d',margin:'-1px',width:'100%'}}>
+            <video  ref="video" poster={empty}  autoPlay muted loop playsInline style={{WebkitTransformStyle: 'preserve-3d',transformStyle:'preserve-3d',margin:'-1px',width:'100%'}}>
               <source src="/image/final_2.mp4" type="video/mp4" />
             </video>
             <div ref = "box" style={{zIndex:100,position:'absolute', boxSizing:'border-box', border:'2px solid #F2F2F2',left:'-1px',top:'-1px', width:'calc(100% + 2px)',height:'calc(100% - 2px)'}}></div>
@@ -325,7 +325,7 @@ class Page3 extends Component {
     return (
       <div style={{height: '85%', marginTop: '6vh', width: '100%', textAlign:'center'}}>
       <div style={{width:'85vw',maxWidth:'50vh',display:'inline-block', position:'relative'}}>
-        <video controls ref="video" poster={empty}  autoPlay muted loop playsInline style={{margin:'-1px',width:'100%'}}>
+        <video ref="video" poster={empty}  autoPlay muted loop playsInline style={{margin:'-1px',width:'100%'}}>
           <source src="/image/final_3.mp4" type="video/mp4" />
         </video>
         <div  ref="box" style={{zIndex:100,position:'absolute', boxSizing:'border-box', border:'2px solid #F2F2F2',left:'-1px',top:'-1px', width:'calc(100% + 2px)',height:'calc(100% - 2px)'}}></div>
@@ -410,7 +410,7 @@ class Page4 extends Component {
     return (
       <div className="right" style={{height: '85%', marginTop: '4vh', textAlign:'center'}}>
       <div style={{width:'84vw',maxWidth:'55vh',display:'inline-block', position:'relative'}}>
-        <video controls ref="video" poster={empty}  autoPlay muted loop playsInline style={{margin:'-1px',width:'100%'}}>
+        <video ref="video" poster={empty}  autoPlay muted loop playsInline style={{margin:'-1px',width:'100%'}}>
           <source src="/image/final_4.mp4" type="video/mp4" />
         </video>
         <div ref="box" style={{zIndex:100,position:'absolute', boxSizing:'border-box', border:'2px solid #F2F2F2',left:'-1px',top:'-1px', width:'calc(100% + 2px)',height:'calc(100% - 2px)'}}></div>
