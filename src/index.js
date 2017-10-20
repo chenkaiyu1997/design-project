@@ -20,7 +20,7 @@ for(var i = 0; i < mobileAgent.length; i++) {
 }
 var isInWeChat = /(micromessenger|webbrowser)/.test(navigator.userAgent.toLocaleLowerCase());
 
-if(isInWeChat) ReactDOM.render(<FuckWechat />, document.getElementById('root'));
+if(0) ReactDOM.render(<FuckWechat />, document.getElementById('root'));
 else {
   document.body.onresize = () => {
     if (document.body.clientWidth > document.body.clientHeight ) {
