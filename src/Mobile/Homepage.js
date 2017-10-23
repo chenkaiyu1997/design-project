@@ -35,7 +35,16 @@ export default class extends Component {
               top: '50%',
               left: '50%',
               transform: 'translate(-50%,-50%)'}}
-              fileConfig={{ attributes: { style: { minWidth: '100%'} } }}/>
+              fileConfig={{ attributes: { style: { 
+                minWidth: '100%',
+                minHeight: '100%',
+                width: 'auto',
+                height: 'auto',
+                position: 'absolute',
+                top: '50%',
+                left: '50%',
+                transform: 'translate(-50%,-50%)'
+              } } }}/>
         }
       </div>
     )
