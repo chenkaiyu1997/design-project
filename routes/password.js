@@ -15,7 +15,7 @@ Router.post('/login', (req, res) => {
   })
 })
 
-Router.post('/changepassword', (req, res) => {
+Router.post('/changePassword', (req, res) => {
   const {password, oldPassword} = req.body
   console.log(password, oldPassword);
   Password.findOne({string: oldPassword}, (err, one) => {
